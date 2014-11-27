@@ -1,0 +1,9 @@
+fp=open('Iris.csv','r')
+INP=[]
+UNP=[]
+first_row=[i.split(',')[0]
+[i.split(',')[1]],[i.split(',')[2]],[i.split(',')[3]])   
+second_row=
+UNP.append(i.split(',')[4])
+
+print INP,UNP 
