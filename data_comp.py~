@@ -1,0 +1,8 @@
+fp=open('Iris.csv','r')
+INP=[]
+UNP=[]
+for i in fp:
+    INP.extend([i.split(',')[0]],[i.split(',')[1]],[i.split(',')[2]],[i.split(',')[3]])   
+    UNP.append(i.split(',')[4])
+
+print INP,UNP 
